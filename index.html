@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livestream Product Set Lineup - Team Dashboard</title>
+    <title>Cadbury Information</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons -->
@@ -50,7 +50,7 @@
                     <span>LIVE STREAM READY</span>
                 </div>
                 <h1 class="text-xl md:text-2xl font-black bg-gradient-to-r from-purple-400 via-amber-300 to-blue-400 bg-clip-text text-transparent">
-                    NEW PRODUCT SET LINEUP
+                    9.9 DOUBLE SALE MECHANIC DEALS
                 </h1>
             </div>
 
@@ -72,17 +72,110 @@
     <!-- Main Container -->
     <main class="max-w-7xl mx-auto px-4 lg:px-8 py-6">
 
-        <!-- Banner / Quick Info -->
-        <div class="bg-gradient-to-r from-indigo-900/60 via-purple-900/40 to-slate-800/80 border border-indigo-500/30 rounded-2xl p-5 mb-8 relative overflow-hidden shadow-xl">
-            <div class="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                <div>
-                    <h2 class="text-lg font-bold text-white flex items-center gap-2">
-                        <i data-lucide="sparkles" class="w-5 h-5 text-amber-400"></i>
-                        Team Live Briefing & Showcase Hub
-                    </h2>
-                    <p class="text-sm text-slate-300 mt-1 max-w-3xl">
-                        Click on any product image or card to open an enlarged view with full product details and live host talk points!
-                    </p>
+        <!-- Campaign Mechanics Section (9.9 Double Sale) -->
+        <div class="bg-gradient-to-r from-indigo-900/80 via-purple-900/60 to-slate-800/90 border border-indigo-500/40 rounded-2xl p-5 mb-8 relative overflow-hidden shadow-2xl">
+            <div class="relative z-10">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-indigo-500/30 mb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="bg-amber-400 text-slate-950 font-black text-xs px-2.5 py-1 rounded-md uppercase tracking-wider">9.9 DOUBLE SALE</span>
+                        <h2 class="text-lg font-extrabold text-white flex items-center gap-2">
+                            <i data-lucide="sparkles" class="w-5 h-5 text-amber-400"></i>
+                            Campaign Mechanics & Live Stream Perks
+                        </h2>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-indigo-200 bg-indigo-950/70 px-3 py-1.5 rounded-lg border border-indigo-700/50">
+                        <i data-lucide="calendar" class="w-4 h-4 text-amber-400"></i>
+                        <span>Campaign Period: 7 Sep - 10 September</span>
+                    </div>
+                </div>
+
+                <!-- Mechanics Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+                    
+                    <!-- Product Pricing -->
+                    <div class="bg-slate-900/70 p-3.5 rounded-xl border border-slate-700/60 flex flex-col justify-between">
+                        <div>
+                            <span class="text-slate-400 font-bold block mb-1 flex items-center gap-1.5">
+                                <i data-lucide="tag" class="w-3.5 h-3.5 text-amber-400"></i> Product Price
+                            </span>
+                            <p class="text-emerald-400 font-extrabold text-base">10% OFF</p>
+                            <p class="text-slate-400 text-[11px] mt-0.5">(Retail Selling Price)</p>
+                        </div>
+                        <span class="mt-2 text-slate-300 text-xs bg-slate-800/80 border border-slate-700 px-2 py-1 rounded w-max">
+                            Applied Storewide
+                        </span>
+                    </div>
+
+                    <!-- Store Vouchers -->
+                    <div class="bg-slate-900/70 p-3.5 rounded-xl border border-slate-700/60">
+                        <span class="text-slate-400 font-bold block mb-1.5 flex items-center gap-1.5">
+                            <i data-lucide="ticket" class="w-3.5 h-3.5 text-purple-400"></i> Store Vouchers
+                        </span>
+                        <div class="space-y-2">
+                            <div class="bg-slate-800/60 p-2 rounded border border-slate-700/40">
+                                <div class="flex justify-between items-center text-slate-200 font-bold">
+                                    <span class="text-purple-300 text-sm">8% OFF</span>
+                                    <span class="text-slate-300 text-xs">Min Spend RM40</span>
+                                </div>
+                                <div class="flex justify-between items-center text-[11px] text-slate-400 mt-0.5">
+                                    <span>Cap: RM5</span>
+                                    <span class="text-amber-400 font-semibold">500 pcs (RM2,500)</span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-slate-800/60 p-2 rounded border border-slate-700/40">
+                                <div class="flex justify-between items-center text-slate-200 font-bold">
+                                    <span class="text-purple-300 text-sm">12% OFF</span>
+                                    <span class="text-slate-300 text-xs">Min Spend RM60</span>
+                                </div>
+                                <div class="flex justify-between items-center text-[11px] text-slate-400 mt-0.5">
+                                    <span>Cap: RM8</span>
+                                    <span class="text-amber-400 font-semibold">200 pcs (RM1,600)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gift With Purchase (GWP) -->
+                    <div class="bg-slate-900/70 p-3.5 rounded-xl border border-slate-700/60">
+                        <span class="text-slate-400 font-bold block mb-1.5 flex items-center gap-1.5">
+                            <i data-lucide="gift" class="w-3.5 h-3.5 text-pink-400"></i> Storewide GWP
+                        </span>
+                        <div class="space-y-2">
+                            <div class="bg-slate-800/60 p-2 rounded border border-slate-700/40">
+                                <div class="flex justify-between items-center font-bold text-slate-200">
+                                    <span class="text-pink-300 text-xs">Min Spend RM40</span>
+                                    <span class="text-slate-400 text-[11px]">750 units</span>
+                                </div>
+                                <p class="text-slate-200 text-xs font-semibold mt-1">2x Cadbury Cookie 50g</p>
+                            </div>
+                            <div class="bg-slate-800/60 p-2 rounded border border-slate-700/40">
+                                <div class="flex justify-between items-center font-bold text-slate-200">
+                                    <span class="text-pink-300 text-xs">Min Spend RM60</span>
+                                    <span class="text-slate-400 text-[11px]">250 units</span>
+                                </div>
+                                <p class="text-slate-200 text-xs font-semibold mt-1">1x Cadbury Cookie 50g + <br> 1x Puffy Bag</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Livestream Exclusive -->
+                    <div class="bg-slate-900/70 p-3.5 rounded-xl border border-slate-700/60 flex flex-col justify-between">
+                        <div>
+                            <span class="text-slate-400 font-bold block mb-1 flex items-center gap-1.5">
+                                <i data-lucide="video" class="w-3.5 h-3.5 text-red-400"></i> Livestream Exclusive
+                            </span>
+                            <div class="bg-red-950/40 p-2 rounded border border-red-800/40 mt-1">
+                                <p class="text-red-400 font-bold text-sm">10% OFF Vouchers</p>
+                                <p class="text-slate-300 text-[11px] mt-0.5">Min spend RM30 (Capped at RM5)</p>
+                            </div>
+                        </div>
+                        <div class="mt-2 pt-2 border-t border-slate-800 flex justify-between items-center text-[11px]">
+                            <span class="text-slate-400">Available Qty:</span>
+                            <span class="font-bold text-amber-300">200 pcs (RM1,000)</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -157,7 +250,7 @@
                 </button>
             </div>
 
-            <!-- Modal Body (Scrollable if needed) -->
+            <!-- Modal Body -->
             <div class="p-6 overflow-y-auto custom-scrollbar flex flex-col items-center">
                 <!-- Large Image Container -->
                 <div class="w-full h-80 sm:h-96 bg-slate-950 rounded-2xl mb-6 p-4 flex items-center justify-center border border-slate-800/80 relative shadow-inner group">
